@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/public/login.css">
+</head>
+<body>
+  <form action="/logindata" method="post">
+    <div class="row form">
+        <div class="col-md-4 form-group">
+            <label for="fName">First Name</label>
+            <input type="text" name="fName" id="fName" class="form-control" placeholder="Enter">
+            <label for="lName">Last Name</label>
+            <input type="text" name="lName" id="lName" class="form-control" placeholder="Enter">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter">
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" class="form-control" placeholder="Enter">
+            <label for="telno">Contact No</label>
+            <input type="tel" name="telno" id="telno" class="form-control" placeholder="Enter">
+            <label for="cmtarea">Comment</label>
+            <textarea name="cmtarea" id="cmtarea" placeholder="Enter your comments" rows="4" cols="40" class="form-control"></textarea>
+            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+        </div>
+    </div>
+    <p> We are always Glad to hear from you.
+    <a href="mailto:mlatha2896@gmail.com?subject=Intrested%20in%20Buying"> Write to us</a>  Your Valuable Feedback.</p>
+  </form>
+</body>
+</html>
